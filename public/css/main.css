@@ -1,0 +1,88 @@
+/* main.css */
+
+html, body {
+    background-image: url("/img/pizzahouse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ff3131; 
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+    
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+    color: white;
+}
+
+/* Update the navigation styles */
+.nav {
+    border: 0.1rem solid #ea1f49; /* Petal color border */
+    border-radius: 0.5rem; /* Adjusted border radius */
+    padding: 0.3em;
+    box-shadow: 0 0 0.1rem #ea1f49,
+    0 0 0.1rem #ea1f49,
+    0 0 1rem #ea1f49,
+    0 0 0.4rem #ea1f49,
+    0 0 1.4rem #ea1f49,
+    inset 0 0 0.65rem #ea1f49;
+    font-size: 1rem; /* Adjusted font size */
+    color: #ea1f49; /* Petal color */
+}
+
+/* Update the title styles */
+.title {
+    font-size: 2rem;
+    color: #ea1f49; /* Petal color */
+    text-shadow: 0 0 10px #000;
+    margin-bottom: 20px;
+}
+
+/* Update the links styles */
+.links > a {
+    color: #ea1f49; /* Petal color */
+    padding: 0 15px; /* Adjusted padding */
+    font-size: 1rem; /* Adjusted font size */
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;  
+}
+
+/* Update the table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #ea1f49; /* Petal color border */
+}
+
+thead {
+    background-color: #ea1f49; /* Petal color background */
+    color: white;
+}

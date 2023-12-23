@@ -1,0 +1,76 @@
+/* inventory.css */
+
+/* Apply styles to the container */
+.container {
+    margin-top: 20px; /* Adjust as needed */
+}
+
+/* Style the heading */
+h1 {
+    color: #ea1f49; /* Petal color */
+}
+
+/* Style the paragraph */
+p {
+    margin-bottom: 20px; /* Add spacing below the paragraph */
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+thead {
+    background-color: #ea1f49; /* Petal color */
+    color: white;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+tr:hover {
+    background-color: rgba(234, 31, 73, 0.15); /* Lighter shade of petal color on hover */
+}
+
+/* Style alternating rows with background color */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style alternating rows with white font color */
+tbody tr:nth-child(odd) {
+    color: white;
+}
+
+/* Apply specific styles based on status */
+td.status {
+    font-weight: bold;
+}
+
+td.CRITICAL {
+    color: red;
+}
+
+td.OUT_OF_STOCK {
+    color: #ff6600;
+}
+
+td.IN_STOCK {
+    color: green;
+}
+
+/* Style the "Actions" column */
+td.actions {
+    font-weight: bold;
+    color: #ea1f49; /* Petal color */
+    cursor: pointer;
+}
+
+td.actions:hover {
+    text-decoration: underline;
+}

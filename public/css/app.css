@@ -1,0 +1,82 @@
+/* Reset some default styles */
+html, body, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, hr, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Apply a box-sizing border-box model globally */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Background color for the entire page */
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add some padding to the sides */
+}
+
+.navbar {
+    background-color: #ffffff; /* Navbar background color */
+    border-bottom: 1px solid #dee2e6; /* Border at the bottom of the navbar */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Navbar brand font size */
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: none; /* Remove border from the navbar toggler */
+}
+
+.navbar-nav {
+    margin-left: auto; /* Push the navbar-nav to the right */
+}
+
+.navbar-nav a {
+    color: #333333; /* Navbar link color */
+}
+
+.navbar-nav a:hover {
+    color: #007bff; /* Navbar link color on hover */
+}
+
+.navbar-toggler-icon {
+    background-color: #007bff; /* Navbar toggler icon color */
+}
+
+/* Main content styles */
+main {
+    padding: 20px 0; /* Add some padding to the main content */
+}
+
+/* Footer styles (if needed) */
+footer {
+    background-color: #f8f9fa; /* Footer background color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-left: 0; /* Reset margin for small screens */
+    }
+
+    .navbar-toggler {
+        margin-right: 0; /* Reset margin for small screens */
+    }
+}

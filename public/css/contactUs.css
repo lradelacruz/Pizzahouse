@@ -1,0 +1,73 @@
+/* contactUs.css */
+
+/* Reset some default styles */
+body, h1, p, address, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a transparent background color for the whole page */
+body {
+    background-color: rgba(234, 31, 73, 0.8); /* Petal color with 80% opacity */
+    font-family: Arial, sans-serif;
+    color: #fff; /* Default text color */
+}
+
+/* Center the content */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ea1f49; /* Petal color border */
+    border-radius: 8px; /* Optional: Add rounded corners to the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+}
+
+/* Style the heading */
+h1 {
+    color: #fff; /* White color for the heading */
+}
+
+/* Style the address section */
+address {
+    margin-top: 20px;
+    font-style: normal;
+    color: #ccc; /* Light gray address text color */
+}
+
+/* Style the form */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ccc; /* Light gray label text color */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333; /* Input text color */
+}
+
+button {
+    background-color: #ea1f49; /* Petal color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b30034; /* Darker shade of petal color on hover */
+}
